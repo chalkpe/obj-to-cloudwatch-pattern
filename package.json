@@ -1,0 +1,18 @@
+{
+  "name": "obj-to-cloudwatch-pattern",
+  "version": "1.0.0",
+  "description": "Convert object into AWS CloudWatch log pattern",
+  "main": "lib/index.js",
+  "repository": "https://github.com/ChalkPE/obj-to-cloudwatch-pattern",
+  "author": "Chalk <chalkpe@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node test"
+  }
+}
